@@ -1,0 +1,98 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kglcompany</groupId>
+  <artifactId>Smartsourceappl</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+	
+	<repositories>
+    	<repository>
+        	<id>psiegman-repo</id>
+        	<url>https://github.com/psiegman/mvn-repo/raw/master/releases</url>
+    	</repository>
+	</repositories>
+
+    <dependencies>
+		
+		<dependency>
+        	<groupId>org.apache.pdfbox</groupId>
+        	<artifactId>pdfbox</artifactId>
+        	<version>2.0.29</version> <!-- Make sure to use the latest version available -->
+    	</dependency>
+   
+    	<dependency>
+        	<groupId>org.jsoup</groupId>
+        	<artifactId>jsoup</artifactId>
+        	<version>1.14.3</version> <!-- Make sure to use the latest version available -->
+    	</dependency>
+		
+        <!-- Apache Commons IO -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+
+        <!-- Apache Commons Lang -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+
+        <!-- Applitools Eyes (optional for visual comparison) -->
+        <dependency>
+    		<groupId>com.applitools</groupId>
+    		<artifactId>eyes-selenium-java3</artifactId>
+    		<version>3.176.0</version>
+		</dependency>
+		
+		<dependency>
+    		<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+    		<version>4.0.0-alpha-3</version>
+		</dependency>
+
+        <!-- WebDriverManager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+    		<version>4.4.3</version>
+		</dependency>
+
+        <!-- Jsoup for HTML parsing -->
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.17.1</version> <!-- Replace x.x.x with the version -->
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.javaparser/javaparser-core -->
+		<dependency>
+			<groupId>com.github.javaparser</groupId>
+    		<artifactId>javaparser-core</artifactId>
+    		<version>3.25.1</version>
+		</dependency>
+
+
+        <!-- Apache Commons Text for text-diff -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+            <version>1.9</version> <!-- Replace x.x with the version -->
+        </dependency>
+        
+        <dependency>
+			<groupId>nl.siegmann.epublib</groupId>
+    		<artifactId>epublib-core</artifactId>
+    		<version>3.1</version>
+		</dependency>
+
+
+		<dependency>
+    		<groupId>com.googlecode.json-simple</groupId>
+    		<artifactId>json-simple</artifactId>
+    		<version>1.1.1</version>
+		</dependency>        
+		
+    </dependencies>
+</project>
