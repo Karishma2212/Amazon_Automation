@@ -48,5 +48,3 @@ The purpose of this script is to automate various functionalities on the Amazon 
 
 ## Contributors
 Karishma Salvi
-
-This README file provides comprehensive documentation about the script's purpose, prerequisites, instructions for execution, and the structure of reusable functions, enabling fellow developers to comprehend and potentially extend the automation solution.
